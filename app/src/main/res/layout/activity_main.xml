@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:musk="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#22000000"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.ripple.core.RippleView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="15dp"
+        android:background="@mipmap/banner"
+        musk:rippleColor="#66000000" />
+
+    <com.ripple.core.RippleView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="15dp"
+        android:background="#FFFFFF"
+        musk:rippleColor="#550000FF" />
+
+    <com.ripple.core.RippleView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="15dp"
+        android:background="#FFFFFF"
+        musk:rippleColor="#5500FF00"
+        musk:rippleRadiusPercent="88%" />
+
+</LinearLayout>
